@@ -1,6 +1,6 @@
 # trayfix
 
-Fixes windows 11 hiding the tray icons all the time.
+Fixes windows 11 hiding the tray icons all the time by promoting them all. Run periodically to fix the annoying lack of "show all" button.
 
 Disclaimer: code is crap and there's no error checking.
 
