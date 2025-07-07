@@ -1,1 +1,1 @@
-cl trayfix.c /link user32.lib /DEFAULTLIB:advapi32.lib
+cl trayfix.c /link user32.lib advapi32.lib
