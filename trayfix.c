@@ -13,7 +13,6 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine
 
     dwIndex = 0;
     dwIsPromoted = 1;
-    dwSize = sizeof(wcKeyName);
 
     RegOpenKeyExW(HKEY_CURRENT_USER, L"Control Panel\\NotifyIconSettings", 0, KEY_ENUMERATE_SUB_KEYS, &hkNotifyIconSettings);
 
